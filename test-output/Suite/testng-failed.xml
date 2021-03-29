@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.CRUDTest">
+        <methods>
+          <include name="testSaveButton"/>
+          <include name="openScreen"/>
+          <include name="testAddItem"/>
+          <include name="setup"/>
+          <include name="testBackButton"/>
+          <include name="testUpdateButton"/>
+          <include name="testDeleteButton"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CRUDTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

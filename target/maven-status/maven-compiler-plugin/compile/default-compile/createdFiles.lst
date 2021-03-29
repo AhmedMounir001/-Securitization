@@ -1,0 +1,4 @@
+pages\CRUDPage.class
+pages\CountriesPage.class
+pages\PageBase.class
+pages\LoginPage.class
